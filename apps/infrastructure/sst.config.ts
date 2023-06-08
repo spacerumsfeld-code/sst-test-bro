@@ -11,8 +11,10 @@ export default {
     };
   },
   stacks(app) {
+    // client
     app.stack(Web);
-    // app.stack(ExampleStack);
+
+    // APIs
     app.stack(ChatAPI);
   },
 } satisfies SSTConfig;
