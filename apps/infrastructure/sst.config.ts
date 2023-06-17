@@ -1,5 +1,4 @@
 import { SSTConfig } from "sst";
-import { ExampleStack } from "./stacks/ExampleStack";
 import { Web } from "./stacks/Web";
 import { ChatAPI } from "../backend/chat/chat.service";
 
